@@ -1,0 +1,40 @@
+import java.io.IOException;
+import java.io.PrintWriter;
+//import javax.servlet.ServletException;
+//import javax.servlet.http.HttpServlet;
+//import javax.servlet.http.HttpServletRequest;
+//import javax.servlet.http.HttpServletResponse;
+
+
+public class MyServletDemo extends jakarta.servlet.http.HttpServlet {
+		 /**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+		private String mymsg;
+		 
+		  public void init() throws jakarta.servlet.ServletException {
+		      mymsg = "Hello World!";
+		   }
+		 
+public void doGet(jakarta.servlet.http.HttpServletRequest request,  jakarta.servlet.http.HttpServletResponse response)
+		      throws jakarta.servlet.ServletException, IOException 
+		   {
+		 
+		      // Setting up the content type of webpage
+		      response.setContentType("text/html");
+		 
+		      // Writing message to the web page
+		      PrintWriter out = response.getWriter();
+		      out.println("<h1>" + mymsg + "</h1>");
+		   }
+		 
+		   public void destroy() {
+		      /* leaving empty for now this can be
+		       * used when we want to do something at the end
+		       * of Servlet life cycle
+		       */
+		   }
+
+
+}
