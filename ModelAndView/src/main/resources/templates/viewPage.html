@@ -1,0 +1,19 @@
+<!DOCTYPE HTML>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>Model And View</title>
+<style>
+body{
+font-family: Arial, Helvetica, sans-serif;
+}
+</style>
+</head>
+<body>
+	<main>
+		<header ><h1 th:text="${welcomeMessage}"></h1></header>
+		<h2 th:text="${number}"></h2>
+		<h3 th:text="${listData}"></h3>
+		<div th:text="${message}"></div>
+	</main>
+</body></html>
