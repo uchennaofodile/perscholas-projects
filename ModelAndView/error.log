@@ -1,3 +1,149 @@
-2023-03-15T00:32:30.088-04:00  INFO 2872 --- [RMI TCP Connection(316)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
-2023-03-15T00:32:30.342-04:00  INFO 2872 --- [RMI TCP Connection(316)-127.0.0.1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
-2023-03-15T00:32:30.355-04:00  INFO 2872 --- [RMI TCP Connection(316)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-03-19T22:49:18.335-04:00  INFO 8168 --- [restartedMain] c.p.m.ModelAndViewApplication            : Starting ModelAndViewApplication using Java 17.0.6 with PID 8168 (C:\Users\Learner_OZH3Z108\eclipse-webproject-workspace\ModelAndView\target\classes started by Learner_OZH3Z108 in C:\Users\Learner_OZH3Z108\eclipse-webproject-workspace\ModelAndView)
+2023-03-19T22:49:18.340-04:00  INFO 8168 --- [restartedMain] c.p.m.ModelAndViewApplication            : No active profile set, falling back to 1 default profile: "default"
+2023-03-19T22:49:18.395-04:00  INFO 8168 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-03-19T22:49:18.396-04:00  INFO 8168 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-03-19T22:49:19.169-04:00  INFO 8168 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-03-19T22:49:19.180-04:00  INFO 8168 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-03-19T22:49:19.181-04:00  INFO 8168 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-03-19T22:49:19.236-04:00  INFO 8168 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-03-19T22:49:19.236-04:00  INFO 8168 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 839 ms
+2023-03-19T22:49:19.572-04:00  INFO 8168 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-03-19T22:49:19.600-04:00  INFO 8168 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-03-19T22:49:19.612-04:00  INFO 8168 --- [restartedMain] c.p.m.ModelAndViewApplication            : Started ModelAndViewApplication in 1.635 seconds (process running for 2.227)
+2023-03-19T22:49:44.738-04:00  INFO 8168 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-19T22:49:44.739-04:00  INFO 8168 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-03-19T22:49:44.740-04:00  INFO 8168 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-03-19T22:59:53.718-04:00  INFO 8168 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 4 class path changes (0 additions, 0 deletions, 4 modifications)
+2023-03-19T22:59:53.735-04:00  INFO 8168 --- [Thread-5] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-03-19T22:59:53.736-04:00  INFO 8168 --- [Thread-5] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-03-19T22:59:53.794-04:00  INFO 8168 --- [restartedMain] c.p.m.ModelAndViewApplication            : Starting ModelAndViewApplication using Java 17.0.6 with PID 8168 (C:\Users\Learner_OZH3Z108\eclipse-webproject-workspace\ModelAndView\target\classes started by Learner_OZH3Z108 in C:\Users\Learner_OZH3Z108\eclipse-webproject-workspace\ModelAndView)
+2023-03-19T22:59:53.794-04:00  INFO 8168 --- [restartedMain] c.p.m.ModelAndViewApplication            : No active profile set, falling back to 1 default profile: "default"
+2023-03-19T22:59:53.926-04:00  INFO 8168 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-03-19T22:59:53.927-04:00  INFO 8168 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-03-19T22:59:53.927-04:00  INFO 8168 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-03-19T22:59:53.938-04:00  INFO 8168 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-03-19T22:59:53.939-04:00  INFO 8168 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 143 ms
+2023-03-19T22:59:54.007-04:00  INFO 8168 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-03-19T22:59:54.016-04:00  INFO 8168 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-03-19T22:59:54.020-04:00  INFO 8168 --- [restartedMain] c.p.m.ModelAndViewApplication            : Started ModelAndViewApplication in 0.244 seconds (process running for 636.68)
+2023-03-19T22:59:54.022-04:00  INFO 8168 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-03-19T23:00:03.866-04:00  INFO 8168 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-19T23:00:03.866-04:00  INFO 8168 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-03-19T23:00:03.867-04:00  INFO 8168 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2023-03-19T23:01:35.533-04:00  INFO 8168 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-03-19T23:01:35.543-04:00  INFO 8168 --- [Thread-7] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-03-19T23:01:35.544-04:00  INFO 8168 --- [Thread-7] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-03-19T23:01:35.589-04:00  INFO 8168 --- [restartedMain] c.p.m.ModelAndViewApplication            : Starting ModelAndViewApplication using Java 17.0.6 with PID 8168 (C:\Users\Learner_OZH3Z108\eclipse-webproject-workspace\ModelAndView\target\classes started by Learner_OZH3Z108 in C:\Users\Learner_OZH3Z108\eclipse-webproject-workspace\ModelAndView)
+2023-03-19T23:01:35.589-04:00  INFO 8168 --- [restartedMain] c.p.m.ModelAndViewApplication            : No active profile set, falling back to 1 default profile: "default"
+2023-03-19T23:01:35.681-04:00  INFO 8168 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-03-19T23:01:35.682-04:00  INFO 8168 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-03-19T23:01:35.682-04:00  INFO 8168 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-03-19T23:01:35.690-04:00  INFO 8168 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-03-19T23:01:35.691-04:00  INFO 8168 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 100 ms
+2023-03-19T23:01:35.734-04:00  INFO 8168 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-03-19T23:01:35.740-04:00  INFO 8168 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-03-19T23:01:35.743-04:00  INFO 8168 --- [restartedMain] c.p.m.ModelAndViewApplication            : Started ModelAndViewApplication in 0.168 seconds (process running for 738.407)
+2023-03-19T23:01:35.744-04:00  INFO 8168 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-03-19T23:02:11.590-04:00  INFO 8168 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-19T23:02:11.590-04:00  INFO 8168 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-03-19T23:02:11.591-04:00  INFO 8168 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2023-03-19T23:02:32.326-04:00  INFO 8168 --- [RMI TCP Connection(15)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2023-03-19T23:02:32.337-04:00  INFO 8168 --- [RMI TCP Connection(15)-127.0.0.1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-03-19T23:02:32.337-04:00  INFO 8168 --- [RMI TCP Connection(15)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-03-19T23:02:33.957-04:00  INFO 28060 --- [restartedMain] c.p.m.ModelAndViewApplication            : Starting ModelAndViewApplication using Java 17.0.6 with PID 28060 (C:\Users\Learner_OZH3Z108\eclipse-webproject-workspace\ModelAndView\target\classes started by Learner_OZH3Z108 in C:\Users\Learner_OZH3Z108\eclipse-webproject-workspace\ModelAndView)
+2023-03-19T23:02:33.959-04:00  INFO 28060 --- [restartedMain] c.p.m.ModelAndViewApplication            : No active profile set, falling back to 1 default profile: "default"
+2023-03-19T23:02:33.997-04:00  INFO 28060 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-03-19T23:02:33.997-04:00  INFO 28060 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-03-19T23:02:34.585-04:00  INFO 28060 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-03-19T23:02:34.593-04:00  INFO 28060 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-03-19T23:02:34.593-04:00  INFO 28060 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-03-19T23:02:34.637-04:00  INFO 28060 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-03-19T23:02:34.637-04:00  INFO 28060 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 639 ms
+2023-03-19T23:02:34.911-04:00  INFO 28060 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-03-19T23:02:34.942-04:00  INFO 28060 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-03-19T23:02:34.951-04:00  INFO 28060 --- [restartedMain] c.p.m.ModelAndViewApplication            : Started ModelAndViewApplication in 1.292 seconds (process running for 1.818)
+2023-03-19T23:02:52.586-04:00  INFO 28060 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-19T23:02:52.586-04:00  INFO 28060 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-03-19T23:02:52.588-04:00  INFO 28060 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2023-03-19T23:05:14.075-04:00  INFO 28060 --- [RMI TCP Connection(6)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2023-03-19T23:05:14.088-04:00  INFO 28060 --- [RMI TCP Connection(6)-127.0.0.1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-03-19T23:05:14.090-04:00  INFO 28060 --- [RMI TCP Connection(6)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-03-19T23:05:15.743-04:00  INFO 6336 --- [restartedMain] c.p.m.ModelAndViewApplication            : Starting ModelAndViewApplication using Java 17.0.6 with PID 6336 (C:\Users\Learner_OZH3Z108\eclipse-webproject-workspace\ModelAndView\target\classes started by Learner_OZH3Z108 in C:\Users\Learner_OZH3Z108\eclipse-webproject-workspace\ModelAndView)
+2023-03-19T23:05:15.746-04:00  INFO 6336 --- [restartedMain] c.p.m.ModelAndViewApplication            : No active profile set, falling back to 1 default profile: "default"
+2023-03-19T23:05:15.783-04:00  INFO 6336 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-03-19T23:05:15.783-04:00  INFO 6336 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-03-19T23:05:16.384-04:00  INFO 6336 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-03-19T23:05:16.392-04:00  INFO 6336 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-03-19T23:05:16.392-04:00  INFO 6336 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-03-19T23:05:16.433-04:00  INFO 6336 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-03-19T23:05:16.433-04:00  INFO 6336 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 650 ms
+2023-03-19T23:05:16.690-04:00  INFO 6336 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-03-19T23:05:16.716-04:00  INFO 6336 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-03-19T23:05:16.727-04:00  INFO 6336 --- [restartedMain] c.p.m.ModelAndViewApplication            : Started ModelAndViewApplication in 1.318 seconds (process running for 1.846)
+2023-03-19T23:05:28.533-04:00  INFO 6336 --- [http-nio-8080-exec-4] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-19T23:05:28.534-04:00  INFO 6336 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-03-19T23:05:28.536-04:00  INFO 6336 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2023-03-19T23:07:28.048-04:00  INFO 6336 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-03-19T23:07:28.063-04:00  INFO 6336 --- [Thread-5] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-03-19T23:07:28.064-04:00  INFO 6336 --- [Thread-5] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-03-19T23:07:28.117-04:00  INFO 6336 --- [restartedMain] c.p.m.ModelAndViewApplication            : Starting ModelAndViewApplication using Java 17.0.6 with PID 6336 (C:\Users\Learner_OZH3Z108\eclipse-webproject-workspace\ModelAndView\target\classes started by Learner_OZH3Z108 in C:\Users\Learner_OZH3Z108\eclipse-webproject-workspace\ModelAndView)
+2023-03-19T23:07:28.117-04:00  INFO 6336 --- [restartedMain] c.p.m.ModelAndViewApplication            : No active profile set, falling back to 1 default profile: "default"
+2023-03-19T23:07:28.229-04:00  INFO 6336 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-03-19T23:07:28.230-04:00  INFO 6336 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-03-19T23:07:28.231-04:00  INFO 6336 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-03-19T23:07:28.241-04:00  INFO 6336 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-03-19T23:07:28.241-04:00  INFO 6336 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 122 ms
+2023-03-19T23:07:28.297-04:00  INFO 6336 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-03-19T23:07:28.304-04:00  INFO 6336 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-03-19T23:07:28.307-04:00  INFO 6336 --- [restartedMain] c.p.m.ModelAndViewApplication            : Started ModelAndViewApplication in 0.208 seconds (process running for 133.432)
+2023-03-19T23:07:28.308-04:00  INFO 6336 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-03-19T23:09:44.507-04:00  INFO 6336 --- [RMI TCP Connection(6)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2023-03-19T23:09:44.515-04:00  INFO 6336 --- [RMI TCP Connection(6)-127.0.0.1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-03-19T23:09:46.047-04:00  INFO 23088 --- [restartedMain] c.p.m.ModelAndViewApplication            : Starting ModelAndViewApplication using Java 17.0.6 with PID 23088 (C:\Users\Learner_OZH3Z108\eclipse-webproject-workspace\ModelAndView\target\classes started by Learner_OZH3Z108 in C:\Users\Learner_OZH3Z108\eclipse-webproject-workspace\ModelAndView)
+2023-03-19T23:09:46.050-04:00  INFO 23088 --- [restartedMain] c.p.m.ModelAndViewApplication            : No active profile set, falling back to 1 default profile: "default"
+2023-03-19T23:09:46.089-04:00  INFO 23088 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-03-19T23:09:46.090-04:00  INFO 23088 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-03-19T23:09:46.699-04:00  INFO 23088 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-03-19T23:09:46.707-04:00  INFO 23088 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-03-19T23:09:46.707-04:00  INFO 23088 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-03-19T23:09:46.750-04:00  INFO 23088 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-03-19T23:09:46.750-04:00  INFO 23088 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 660 ms
+2023-03-19T23:09:47.012-04:00  INFO 23088 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-03-19T23:09:47.038-04:00  INFO 23088 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-03-19T23:09:47.046-04:00  INFO 23088 --- [restartedMain] c.p.m.ModelAndViewApplication            : Started ModelAndViewApplication in 1.288 seconds (process running for 1.826)
+2023-03-19T23:09:59.109-04:00  INFO 23088 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-19T23:09:59.110-04:00  INFO 23088 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-03-19T23:09:59.111-04:00  INFO 23088 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-03-19T23:12:34.094-04:00  INFO 23088 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-03-19T23:12:34.110-04:00  INFO 23088 --- [Thread-5] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-03-19T23:12:34.112-04:00  INFO 23088 --- [Thread-5] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-03-19T23:12:34.160-04:00  INFO 23088 --- [restartedMain] c.p.m.ModelAndViewApplication            : Starting ModelAndViewApplication using Java 17.0.6 with PID 23088 (C:\Users\Learner_OZH3Z108\eclipse-webproject-workspace\ModelAndView\target\classes started by Learner_OZH3Z108 in C:\Users\Learner_OZH3Z108\eclipse-webproject-workspace\ModelAndView)
+2023-03-19T23:12:34.161-04:00  INFO 23088 --- [restartedMain] c.p.m.ModelAndViewApplication            : No active profile set, falling back to 1 default profile: "default"
+2023-03-19T23:12:34.268-04:00  INFO 23088 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-03-19T23:12:34.268-04:00  INFO 23088 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-03-19T23:12:34.268-04:00  INFO 23088 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-03-19T23:12:34.277-04:00  INFO 23088 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-03-19T23:12:34.278-04:00  INFO 23088 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 116 ms
+2023-03-19T23:12:34.344-04:00  INFO 23088 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-03-19T23:12:34.352-04:00  INFO 23088 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-03-19T23:12:34.355-04:00  INFO 23088 --- [restartedMain] c.p.m.ModelAndViewApplication            : Started ModelAndViewApplication in 0.209 seconds (process running for 169.144)
+2023-03-19T23:12:34.356-04:00  INFO 23088 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-03-19T23:14:31.175-04:00  INFO 23088 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-03-19T23:14:31.185-04:00  INFO 23088 --- [Thread-7] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-03-19T23:14:31.236-04:00  INFO 23088 --- [restartedMain] c.p.m.ModelAndViewApplication            : Starting ModelAndViewApplication using Java 17.0.6 with PID 23088 (C:\Users\Learner_OZH3Z108\eclipse-webproject-workspace\ModelAndView\target\classes started by Learner_OZH3Z108 in C:\Users\Learner_OZH3Z108\eclipse-webproject-workspace\ModelAndView)
+2023-03-19T23:14:31.236-04:00  INFO 23088 --- [restartedMain] c.p.m.ModelAndViewApplication            : No active profile set, falling back to 1 default profile: "default"
+2023-03-19T23:14:31.332-04:00  INFO 23088 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-03-19T23:14:31.332-04:00  INFO 23088 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-03-19T23:14:31.332-04:00  INFO 23088 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-03-19T23:14:31.342-04:00  INFO 23088 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-03-19T23:14:31.342-04:00  INFO 23088 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 104 ms
+2023-03-19T23:14:31.385-04:00  INFO 23088 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-03-19T23:14:31.393-04:00  INFO 23088 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-03-19T23:14:31.396-04:00  INFO 23088 --- [restartedMain] c.p.m.ModelAndViewApplication            : Started ModelAndViewApplication in 0.176 seconds (process running for 286.191)
+2023-03-19T23:14:31.397-04:00  INFO 23088 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-03-19T23:15:10.738-04:00  INFO 23088 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-19T23:15:10.738-04:00  INFO 23088 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-03-19T23:15:10.738-04:00  INFO 23088 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2023-03-19T23:19:06.622-04:00  INFO 23088 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-03-19T23:19:06.652-04:00  INFO 23088 --- [Thread-11] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-03-19T23:19:06.652-04:00  INFO 23088 --- [Thread-11] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'

@@ -16,8 +16,13 @@ import lombok.experimental.FieldDefaults;
 @FieldDefaults(level=AccessLevel.PRIVATE)
 public class StudentController {
 
+
+	final StudentRepository studentRepository;
+	
 	@Autowired
-	StudentRepository studentRepository;
+	public StudentController(StudentRepository studentRepository) {
+		this.studentRepository =  studentRepository;
+	}
 	
 	@GetMapping("/students")
 	public List <Student> getAllStudents(){

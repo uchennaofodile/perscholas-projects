@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app>
+<bean id="multipartResolver"
+class="org.springframework.web.multipart.Commons.CommonsMultipartResolver">
+property name="maxUploadsize" value="20848820" />
+</bean>
+<!--Change this Location to where you're uploading Your files-->
+<mvc:resources mapping ="/fileuploads/**"  location = "file:///Users/Learner_OZH3Z108/MultipleFileUpload/"/>
+</web-app>

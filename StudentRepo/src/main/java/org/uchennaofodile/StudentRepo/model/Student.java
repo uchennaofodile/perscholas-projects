@@ -12,10 +12,9 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 import lombok.experimental.FieldDefaults;
 
-
+@Entity
 @Data
 @NoArgsConstructor
-@Entity
 @FieldDefaults(level=AccessLevel.PRIVATE)
 public class Student implements Serializable {
 private static final long serialVersionUID = 1L;
