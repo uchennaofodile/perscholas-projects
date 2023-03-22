@@ -147,3 +147,16 @@
 2023-03-19T23:19:06.622-04:00  INFO 23088 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
 2023-03-19T23:19:06.652-04:00  INFO 23088 --- [Thread-11] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
 2023-03-19T23:19:06.652-04:00  INFO 23088 --- [Thread-11] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-03-19T23:19:06.698-04:00  INFO 23088 --- [restartedMain] c.p.m.ModelAndViewApplication            : Starting ModelAndViewApplication using Java 17.0.6 with PID 23088 (C:\Users\Learner_OZH3Z108\eclipse-webproject-workspace\ModelAndView\target\classes started by Learner_OZH3Z108 in C:\Users\Learner_OZH3Z108\eclipse-webproject-workspace\ModelAndView)
+2023-03-19T23:19:06.699-04:00  INFO 23088 --- [restartedMain] c.p.m.ModelAndViewApplication            : No active profile set, falling back to 1 default profile: "default"
+2023-03-19T23:19:06.811-04:00  INFO 23088 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-03-19T23:19:06.812-04:00  INFO 23088 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-03-19T23:19:06.812-04:00  INFO 23088 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-03-19T23:19:06.821-04:00  INFO 23088 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-03-19T23:19:06.821-04:00  INFO 23088 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 121 ms
+2023-03-19T23:19:06.874-04:00  INFO 23088 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-03-19T23:19:06.882-04:00  INFO 23088 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-03-19T23:19:06.884-04:00  INFO 23088 --- [restartedMain] c.p.m.ModelAndViewApplication            : Started ModelAndViewApplication in 0.201 seconds (process running for 561.691)
+2023-03-19T23:19:06.885-04:00  INFO 23088 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-03-19T23:27:42.641-04:00  INFO 23088 --- [RMI TCP Connection(21)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2023-03-19T23:27:42.651-04:00  INFO 23088 --- [RMI TCP Connection(21)-127.0.0.1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
