@@ -27,6 +27,8 @@
 	</section>
 	<section name="MavenProjectImportWizardPage">
 		<list key="rootDirectory">
+			<item value="C:\Users\Learner_OZH3Z108\eclipse-webproject-workspace"/>
+			<item value="C:\Users\Learner_OZH3Z108\eclipse-webproject-workspace\springcrudapi - REST"/>
 			<item value="C:\Users\Learner_OZH3Z108\eclipse-webproject-workspace\EurekaServer"/>
 			<item value="C:\Users\Learner_OZH3Z108\eclipse-webproject-workspace\MyEurekaClient"/>
 			<item value="C:\Users\Learner_OZH3Z108\eclipse-webproject-workspace\EurekaClientOne"/>
@@ -40,8 +42,6 @@
 			<item value="C:\Users\Learner_OZH3Z108\eclipse-webproject-workspace\SpringSecurityDemo"/>
 			<item value="C:\Users\Learner_OZH3Z108\Documents\web scrapper\CarMatch"/>
 			<item value="C:\Users\Learner_OZH3Z108\Downloads\StudentH2Demo"/>
-			<item value="C:\Users\Learner_OZH3Z108\eclipse-webproject-workspace\StudentRepo2"/>
-			<item value="C:\Users\Learner_OZH3Z108\eclipse-webproject-workspace\Thymeleaf-tour"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
