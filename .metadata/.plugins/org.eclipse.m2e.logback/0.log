@@ -10842,3 +10842,49 @@ org.xml.sax.SAXParseException: Are you trying to compile WSDL? Support for WSDL 
 2023-03-25 02:11:04,642 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Learner_OZH3Z108\eclipse-webproject-workspace\springcrudapi-REST\src\test\resources
 2023-03-25 02:24:04,937 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
 2023-03-25 02:24:04,941 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-25 02:24:04,945 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Learner_OZH3Z108\eclipse-webproject-workspace\springcrudapi-REST\src\test\resources
+2023-03-25 21:06:56,887 [Worker-24: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2023-03-25 21:13:37,232 [Worker-29: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: org.uchennaofodile:CarMatch:0.0.1-SNAPSHOT @ C:\Users\Learner_OZH3Z108\Documents\web scrapper\CarMatch\pom.xml.
+2023-03-25 21:13:47,159 [Worker-25: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2023-03-25 21:13:47,290 [Worker-25: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: org.uchennaofodile:CarMatch:0.0.1-SNAPSHOT @ C:\Users\Learner_OZH3Z108\Documents\web scrapper\CarMatch\pom.xml.
+2023-03-25 21:13:48,213 [Worker-25: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /CarMatch/src/main/resources
+2023-03-25 21:13:48,214 [Worker-25: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /CarMatch/src/main/resources
+2023-03-25 21:13:48,860 [Worker-25: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0.00 sec, refresh facades takes 0.00 sec, update config takes 0.00 sec 
+2023-03-25 21:14:59,683 [Worker-29: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: org.uchennaofodile:CarMatch:0.0.1-SNAPSHOT @ C:\Users\Learner_OZH3Z108\Documents\web scrapper\CarMatch\pom.xml.
+2023-03-25 21:15:00,708 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-25 21:15:00,709 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2023-03-25 21:15:00,713 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Learner_OZH3Z108\Documents\web scrapper\CarMatch\src\test\resources
+2023-03-25 21:15:01,998 [Worker-26: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/jsoup/jsoup/1.15.4/jsoup-1.15.4-sources.jar
+2023-03-25 21:15:02,131 [Worker-26: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/jsoup/jsoup/1.15.4/jsoup-1.15.4-sources.jar
+2023-03-25 21:15:02,134 [Worker-26: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.jsoup:jsoup:1.15.4
+2023-03-25 21:15:13,493 [Worker-26: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2023-03-25 21:15:13,652 [Worker-26: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: org.uchennaofodile:CarMatch:0.0.1-SNAPSHOT @ C:\Users\Learner_OZH3Z108\Documents\web scrapper\CarMatch\pom.xml.
+2023-03-25 21:15:14,380 [Worker-26: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /CarMatch/src/main/java
+2023-03-25 21:15:14,381 [Worker-26: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /CarMatch/src/main/resources
+2023-03-25 21:15:14,381 [Worker-26: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /CarMatch/src/main/resources
+2023-03-25 21:15:14,381 [Worker-26: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /CarMatch/src/test/java
+2023-03-25 21:15:14,855 [Worker-26: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0.00 sec, refresh facades takes 0.00 sec, update config takes 0.00 sec 
+2023-03-25 21:15:15,844 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-25 21:15:15,874 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 8 resources
+2023-03-25 21:15:15,930 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Learner_OZH3Z108\Documents\web scrapper\CarMatch\src\test\resources
+2023-03-25 21:17:34,936 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-25 21:17:34,944 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 8 resources
+2023-03-25 21:17:34,952 [Worker-34: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Learner_OZH3Z108\Documents\web scrapper\CarMatch\src\test\resources
+2023-03-25 21:52:11,580 [Worker-36: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-25 21:52:11,588 [Worker-36: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 8 resources
+2023-03-25 21:52:11,596 [Worker-36: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Learner_OZH3Z108\Documents\web scrapper\CarMatch\src\test\resources
+2023-03-25 22:12:39,474 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-25 22:12:39,482 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 8 resources
+2023-03-25 22:12:39,488 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Learner_OZH3Z108\Documents\web scrapper\CarMatch\src\test\resources
+2023-03-25 22:16:03,659 [Worker-46: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-25 22:16:03,665 [Worker-46: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 8 resources
+2023-03-25 22:16:03,670 [Worker-46: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Learner_OZH3Z108\Documents\web scrapper\CarMatch\src\test\resources
+2023-03-25 22:26:34,157 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-25 22:26:34,171 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 8 resources
+2023-03-25 22:26:34,176 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Learner_OZH3Z108\Documents\web scrapper\CarMatch\src\test\resources
+2023-03-25 22:26:57,942 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-25 22:26:57,948 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 8 resources
+2023-03-25 22:26:57,954 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Learner_OZH3Z108\Documents\web scrapper\CarMatch\src\test\resources
+2023-03-26 00:42:53,701 [Worker-55: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-03-26 00:42:53,710 [Worker-55: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 8 resources
+2023-03-26 00:42:53,718 [Worker-55: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Learner_OZH3Z108\Documents\web scrapper\CarMatch\src\test\resources
